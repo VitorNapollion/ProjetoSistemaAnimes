@@ -1,2 +1,3 @@
 - A primeira melhoria seria utilizar um enum CategoriasDeAnime para executar a função de armazenar as categorias dos animes em vez de passar as categorias na classe Anime.
 - Outra melhoria seria documentar na classe de interface os métodos existentes no sistema para deixar as classes mais coesas sendo mais fácil de entender e interpretar.
+- Poderíamos adicionar o atributo temporada a Classe Anime assim melhorando o método atualizarAnime onde colocaríamos as temporadas que o anime possui além da sua quantidade de episódios.
