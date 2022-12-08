@@ -85,6 +85,10 @@ public class AnimesGui extends JFrame {
         menuOperacoes.add(menuCadastrarAnime);
         menuCadastrarAnime.addActionListener(new CadastraAnimeController(sistema, this));
 
+        JMenuItem menuAtualizarAnime = new JMenuItem("Atualizar Anime");
+        menuOperacoes.add(menuAtualizarAnime);
+        menuAtualizarAnime.addActionListener(new AtualizaAnimeController(sistema, this));
+
         JMenuItem menuPesquisarAnimePorNome = new JMenuItem("Pesquisar Anime por Nome");
         menuOperacoes.add(menuPesquisarAnimePorNome);
         menuPesquisarAnimePorNome.addActionListener(new PesquisaAnimePeloNomeController(sistema, this));

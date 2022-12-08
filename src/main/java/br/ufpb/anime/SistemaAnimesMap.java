@@ -51,17 +51,18 @@ public class SistemaAnimesMap implements SistemaAnimesInterface{
     }
 
     @Override
-    public boolean atualizarAnime (Anime anime){
-        String nome = anime.getNome();
-        String categoria = anime.getCategoria();
-        int episodios = anime.getEpisodios();
-        
-        anime.setEpisodios(episodios);
-
-        if (nome.isEmpty() && categoria.isEmpty() && episodios == 0) {
+    public boolean atualizarAnime (String nome, int episodios) {
+        Anime a = this.animes.get(nome);
+        if(!animes.containsKey(nome)) {
             return false;
+        } else {
+            if (nome.isEmpty() || episodios == 0) {
+                return false;
+            } else {
+                a.setEpisodios(episodios);
+                return true;
+            }
         }
-        return true;
     }
 
     @Override

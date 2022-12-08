@@ -10,7 +10,7 @@ public interface SistemaAnimesInterface {
 
     public Collection<Anime> pesquisarAnimesDaCategoria(String categoria);
 
-    public boolean atualizarAnime(Anime anime);
+    public boolean atualizarAnime(String nome, int episodios);
     
     public boolean removeAnime(String nome);
 

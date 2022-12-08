@@ -18,10 +18,8 @@ public class AtualizaAnimeController implements ActionListener{
     @Override
     public void actionPerformed(ActionEvent e){
         String nome = JOptionPane.showInputDialog(janelaPrincipal, "Qual o nome do anime: ").toUpperCase();
-        String categoria = JOptionPane.showInputDialog(janelaPrincipal, "Qual a categoria do anime: ").toUpperCase();
         int episodios = Integer.parseInt(JOptionPane.showInputDialog(janelaPrincipal, "Qual a nova quantidade de episodios: "));
-        boolean atualizou = sistemaAnime.atualizarAnime(new Anime(nome, categoria, episodios));
-
+        boolean atualizou = sistemaAnime.atualizarAnime(nome, episodios);
         if(atualizou){
             JOptionPane.showMessageDialog(janelaPrincipal, "Anime atualizou com sucesso");
         } else{
