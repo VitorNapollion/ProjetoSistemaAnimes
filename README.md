@@ -5,7 +5,7 @@
 - cadastraAnime: Esse método tenta cadastrar um anime, e caso consiga ele é cadastrado por meio de três parâmetros: nome, categoria e episódios. 
 - pesquisaAnimePeloNome: Recebe o nome de um anime como parâmetro e retorna as informações do anime que foi pesquisado. 
 - pesquisaAnimePelaCategoria: Recebe a categoria de um anime como parâmetro e retorna uma lista de todos os animes da categoria pesquisada. 
-- atualizarAnime: Recebe o Objeto anime como parâmetro e atualiza a quantidade de episódios deste anime. 
+- atualizarAnime: Recebe o nome e a nova quantidade de episódios como parâmetro atualizando a quantidade de episódios deste anime. 
 - removeAnime: Recebe o nome do anime como parâmetro e se esse anime existir no banco de dados do sistema ele irá ser removido.
 
  Futuramente poderíamos implementar métodos como o de:
