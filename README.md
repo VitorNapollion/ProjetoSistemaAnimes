@@ -12,4 +12,4 @@
 - favoritarAnime: Esse método serviria para armazenar os animes favoritos do usuário.
 - pesquisarAnimesPeloAno: Esse método mostraria uma lista de animes pelo ano pesquisado.
 - listarAnimesCadastrados: Esse metódo teria a funcionalidade de retornar uma lista de todos os animes já cadastrados no sistema.
-- 
+- animesMaisVistosDaTemporada: Esse metódo retornaria uma lista com os Dez animes mais vistos da temporada.
