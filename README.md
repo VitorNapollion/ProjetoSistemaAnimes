@@ -1,5 +1,6 @@
 # ProjetoSistemaAnimes
- Projeto Final da disciplina POO - UFPB Campus IV
+ Projeto Final da disciplina POO - UFPB Campus IV.
+ 
  Nosso projeto foi um sistema de animes com as seguintes funcionalidades:
 - cadastraAnime: Esse método tenta cadastrar um anime, e caso consiga ele é cadastrado por meio de três parâmetros: nome, categoria e episódios. 
 - pesquisaAnimePeloNome: Recebe o nome de um anime como parâmetro e retorna as informações do anime que foi pesquisado. 
